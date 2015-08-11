@@ -1,0 +1,291 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ 
+ 
+
+/* CSS RESET DONE */
+ 
+.container2 { 
+ height: 83%;
+  width: 5100px;
+  text-align: center;
+  background-color: rgba(225,225,225,0.1);
+}
+ 
+a1{
+  text-decoration: none;
+  color: #fff;  
+  margin: 0 10px;
+  font-size:18;
+}
+ 
+
+ 
+/* Menu Styles */
+
+.valign {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle; 
+}
+.vertical {
+  word-wrap: break-word;
+  width: 10px;
+  display: inline-block;
+  line-height: 18px;
+}
+
+.navbar1{
+  margin-top:50px;
+  background-color: #444;
+  position: fixed;
+  left: 0;
+  width: 50px;
+  height: 40%;
+
+  -webkit-box-shadow: 1px 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 1px 0 1px 0 rgba(0,0,0,.15);
+}
+  .navbar1 a1.menu {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #444;
+    font-size: 23px;
+    line-height: 50px;
+  }
+  .navbar1 a1.link {
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #444;
+  }
+    .navbar1 a1.link span.active,
+    .navbar1 a1.link span.hover {     
+      display: table; 
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      
+      transform-origin: 0% 50% 0px;
+      -webkit-transform-origin: 0% 50% 0px;
+      transition: .2s; 
+      -webkit-transition: .2s;   
+      
+      border-bottom: 1px solid #555;     
+    }
+    .navbar1 a1.link span.active {
+      transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      
+      left: 0;
+      background-color: #444;
+    }
+      .navbar1 a1.link:hover span.active {
+        background-color: #999;
+        transform: matrix3d(0, 0, 1, 0, 0, 1, 0, 0, -1, 0, 0, 0, -50, 0, 0, 1);
+        -webkit-transform: matrix3d(0, 0, 1, 0, 0, 1, 0, 0, -1, 0, 0, 0, -50, 0, 0, 1);
+      }
+      .navbar1 a1.link span.active .vertical { color: #aaa; 
+        }
+    .navbar1 a1.link span.hover {
+      transform: matrix3d(0, 0, -1, 0.00166, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1);
+      -webkit-transform: matrix3d(0, 0, -1, 0.00166, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1);
+      
+      left: 100%;
+      background-color: #ccc;
+    }
+      .navbar1 a1.link:hover span.hover {
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, -50, 0, 0, 1);
+        -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00166, -50, 0, 0, 1);
+      }
+    
+	
+	
+ @media (max-height: 720px)and (max-width:1000px) {
+   
+   
+   .container3{
+   
+     position: relative;
+   
+   }
+   a1{
+  text-decoration: overline;
+  color: #fff;  
+  margin: 0 10px;
+  font-size:25px; 
+}
+
+.valign {
+  position: relative;
+  display: table-cell;
+  vertical-align: left;
+  
+} 
+.vertical {
+  word-wrap: nowrap;
+  width: 10;
+  display: inline-block;
+   white-space: nowrap
+   
+}
+
+.navbar1{
+  margin-left:90px;
+  margin-top:50px;
+  background-color: #444;
+  position: relative;
+  left: 0;
+  width: 121;
+  height:  121;
+  
+ 
+}
+  .navbar1 a1.menu { 
+    margin: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #444;
+    font-size: 23px; 
+  }
+  .navbar1 a1.link {
+    position: relative;  
+    width: 100%;
+    height:40px;
+    background-color: #444;
+	
+	margin-left:-140px;
+  }
+   
+      .navbar1 a1.link span.active,
+    .navbar1 a1.link span.hover {     
+      display: table; 
+      position: absolute;
+      width: 420px;
+      height: 100%;
+	  margin-left:-150px;
+      
+      transform-origin: 0% 50% 0px;
+      -webkit-transform-origin: 0% 50% 0px;
+      transition: .2s; 
+      -webkit-transition: .2s;   
+      
+      border-bottom: 1px solid #555;     
+    }
+    
+   
+   
+  
+   
+}
+  
+  
+   
+  
+  
+  div1 {
+   
+    cursor:pointer;
+}
+
+
+
+
+
+/* help tip   */
+
+.help-tip{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    text-align: center;
+    background-color: #BCDBEA;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+}
+
+.help-tip:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.help-tip:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.help-tip p{	/* The tooltip */
+    display: none;
+    text-align: left;
+    background-color: #1E2021;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    right: -4px;
+    color: #FFF;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.help-tip p:before{ /* The pointer of the tooltip */
+    position: absolute;
+    content: '';
+    width:0;
+    height: 0;
+    border:6px solid transparent;
+    border-bottom-color:#1E2021;
+    right:10px;
+    top:-12px;
+}
+
+.help-tip p:after{ /* Prevents the tooltip from being hidden */
+    width:100%;
+    height:40px;
+    content:'';
+    position: absolute;
+    top:-40px;
+    left:0;
+}
+
+/* CSS animation */
+
+@-webkit-keyframes fadeIn {
+    0% { 
+        opacity:0; 
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity:100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:100%; }
+}
