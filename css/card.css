@@ -44,6 +44,9 @@ Image placeholders: placemi.com
     height: 241px;
     border: none;
     overflow: hidden;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 .panel.panel-card .panel-heading {
     position: relative;
@@ -51,6 +54,9 @@ Image placeholders: placemi.com
     height: 120px;
     border-bottom-color: #fff;
     overflow: hidden;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 
     -webkit-transition: height 600ms ease-in-out;
             transition: height 600ms ease-in-out;
@@ -79,8 +85,8 @@ Image placeholders: placemi.com
     width: 70px;
     height: 70px;
     background-color: #fff;
-    border-radius: 50%;
     opacity: 1;
+    
     -webkit-box-shadow: 0 0 0 3px #fff;
             box-shadow: 0 0 0 3px #fff;
 
