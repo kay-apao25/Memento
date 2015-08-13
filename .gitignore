@@ -1,0 +1,4 @@
+su.gitignore~
+*.sql~
+*.pyc~
+*.pyc

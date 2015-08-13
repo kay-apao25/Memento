@@ -2,23 +2,24 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link href="css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/card.css">
-        <link rel="stylesheet" type="text/css" href="css/navbar.css">
-        <link rel="stylesheet" type="text/css" href="css/search.css">
-        <script src="jquery_ui/jquery.min.js"></script>
-        <script src="javascript/bootstrap.min.js"></script>
-        <script src="javascript/dropdown.min.js"></script>
-		<script src="javascript/index.js"></script>
-        <script src="javascript/search.js"></script>
+        <title>TravelMe</title>
+	    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/card.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/navbar.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/search.css') }}">
+        <script src="{{ url_for('static', filename='jquery_ui/jquery.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='javascript/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='javascript/dropdown.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='javascript/index.js') }}"></script>
+        <script src="{{ url_for('static', filename='javascript/search.js') }}"></script>
         
 
 		<!--Datepicker-->
-        <link href="css/bootstrap-datetimepicker.min.css" type="text/css" media="all" rel="stylesheet">
-        <script type="text/javascript" src="javascript/moment.min.js"></script>
-        <script type="text/javascript" src="javascript/bootstrap-datetimepicker.min.js"></script>
+        <link href="{{ url_for('static', filename='css/bootstrap-datepicker.min.css') }}" type="text/css" media="all" rel="stylesheet">
+        <script type="text/javascript" src="{{ url_for('static', filename='javascript/moment.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='javascript/bootstrap-datepicker.min.js') }}"></script>
         <!--end Datepicker -->
         <!--<style type="text/css">
             body {
@@ -51,7 +52,7 @@
                             <div style="width:5%; height:100%; float:right;">
                                 <ul class="nav navbar-nav navbar-center">
                                     <li class="dropdown mega-dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-top: 9px; padding-bottom: 9px;">
+                                        <a href="/TravelMe " class="dropdown-toggle" data-toggle="dropdown" style="padding-top: 9px; padding-bottom: 9px;">
                                             <img src="http://itsmorefuninthephilippines.com/wp-content/themes/fun/images/logo2.png" />
                                         </a>
 
@@ -137,12 +138,12 @@
             
             <div style="width:100%; height:100%; margin-top:69px; position:fixed;">
                 <div style="width:100%; height:45%;">
-                    <div style="width:50%; height:100%; float:left"><img src="images/1.gif" style="width:100%; height:100%;"/></div>
+                    <div style="width:50%; height:100%; float:left"><img src="{{ url_for('static', filename='images/1.gif') }}" style="width:100%; height:100%;"/></div>
                     <div style="width:50%; height:100%; float:right; background-color:green;"><!--<img src="images/4.jpg" style="width:100%; height:100%;"/>--></div>
                 </div>
                 <div style="width:100%; height:50%;">
                     <div style="width:50%; height:100%; float:left; background-color:white;"><!--<img src="images/3.jpg" style="width:100%; height:100%;"/>--></div>
-                    <div style="width:50%; height:100%; float:right"><img src="images/2.jpg" style="width:100%; height:100%;"/></div>
+                    <div style="width:50%; height:100%; float:right"><img src="{{ url_for('static', filename='images/2.jpg') }}" style="width:100%; height:100%;"/></div>
                 </div>        
             </div>
 	
